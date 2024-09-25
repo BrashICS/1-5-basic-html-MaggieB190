@@ -21,3 +21,7 @@ html {
     background-color:white;
   }
 
+img {
+    border:8px solid #ffffff; 
+    margin:5px;
+}
