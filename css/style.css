@@ -9,6 +9,18 @@ html {
     padding: 10px;
   }
 
+  div.gallery {
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
   hr {
     height:5px;
     background-color:white;
@@ -59,6 +71,7 @@ html {
     font-size: 100%;
     color:white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: bottom;
   }
 
   img {
@@ -73,4 +86,6 @@ html {
     border-color: rgb(83, 40, 107);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(83, 40, 107);
+    position: relative;
+    left: 30px;
   }
